@@ -10,28 +10,28 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  STARTER_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  STARTER_HERO_TITLE_1: '我是一名市场研究专家', // 英雄区文字
+  STARTER_HERO_TITLE_2: '专注科技、商业与消费品', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: '我的研究', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
-    'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
+    'https://www.samuelyi101.com/about', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: '加我微信', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
 
   // 顶部右侧导航暗流
-  STARTER_NAV_BUTTON_1_TEXT: '联系我',
+  STARTER_NAV_BUTTON_1_TEXT: '找我',
   STARTER_NAV_BUTTON_1_URL: '/contact',
 
-  STARTER_NAV_BUTTON_2_TEXT: '',
-  STARTER_NAV_BUTTON_2_URL: '',
+  STARTER_NAV_BUTTON_2_TEXT: '关于',
+  STARTER_NAV_BUTTON_2_URL: '/about',
 
   // 特性区块
-  STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
+  STARTER_FEATURE_ENABLE: false, // 特性区块开关
+  STARTER_FEATURE_TITLE: '我专注在', // 特性
   STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
   STARTER_FEATURE_TEXT_2:
     'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
@@ -59,16 +59,16 @@ const CONFIG = {
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
+  STARTER_ABOUT_TITLE: '商业洞察',
   STARTER_ABOUT_TEXT:
-    'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
+    '为企业带来价值，为消费者带来更好的产品与体验 <br /> <br /> 擅长数据分析与案例研究',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
-  STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
+  STARTER_ABOUT_BUTTON_URL: 'https://www.samuelyi101.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_TIPS_1: '100+',
+  STARTER_ABOUT_TIPS_2: '曾服务的',
+  STARTER_ABOUT_TIPS_3: '商业客户',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
@@ -229,17 +229,17 @@ const CONFIG = {
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我们的博客',
+  STARTER_BLOG_TITLE: '我的博客',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近的新闻',
+  STARTER_BLOG_TEXT_1: '最近的文章',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    '这里会发布一些关于科技、商业方面的文章',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
-  STARTER_CONTACT_TITLE: '联系我',
-  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
-  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
+  STARTER_CONTACT_TITLE: '与我合作',
+  STARTER_CONTACT_TEXT: '告诉我您遇到的问题',
+  STARTER_CONTACT_LOCATION_TITLE: '我的位置',
   STARTER_CONTACT_LOCATION_TEXT: '中国，上海',
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
   STARTER_CONTACT_EMAIL_TEXT: 'samuelyi101@hotmail.com',
@@ -256,7 +256,7 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   STARTER_BRANDS: [
     {
       IMAGE: '/images/starter/brands/graygrids.svg',
@@ -290,54 +290,47 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  STARTER_FOOTER_SLOGAN: '我通过洞察为企业与用户带来价值。',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
       TITLE: '关于我',
       LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
+        { TITLE: '我的主页', URL: '/#home' },
+        { TITLE: '我的博客', URL: 'https://blog.samuelyi101.com' },
         {
-          TITLE: '帮助支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
+          TITLE: '与我合作',
+          URL: 'https://blog.samuelyi101.com'
         },
         {
-          TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
+          TITLE: '工作机会',
+          URL: 'https://blog.samuelyi101.com'
         }
       ]
     },
     {
-      TITLE: '功能特性',
+      TITLE: '研究领域',
       LINK_GROUP: [
         {
-          TITLE: '部署指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
+          TITLE: '市场研究',
+          URL: 'https://blog.samuelyi101.com'
         },
         {
-          TITLE: '升级指南',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          TITLE: '行业研究',
+          URL: 'https://blog.samuelyi101.com'
         },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: '消费者研究', URL: 'https://blog.samuelyi101.com' }
+        { TITLE: '品牌研究', URL: 'https://blog.samuelyi101.com' }
       ]
     },
     {
-      TITLE: 'Notion写作',
+      TITLE: '技术栈',
       LINK_GROUP: [
         {
-          TITLE: 'Notion开始写作',
+          TITLE: 'Notion',
           URL: 'https://docs.tangly1024.com/article/start-to-write'
         },
-        {
-          TITLE: '快捷键提升效率',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
-        },
-        {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
-        }
       ]
     }
   ],
@@ -359,7 +352,7 @@ const CONFIG = {
   STARTER_404_BACK: '回到主页',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+  STARTER_POST_REDIRECT_URL: 'https://blog.samuelyi101.com', // 重定向域名
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
