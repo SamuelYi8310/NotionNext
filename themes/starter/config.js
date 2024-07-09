@@ -320,7 +320,7 @@ const CONFIG = {
           TITLE: '行业研究',
           URL: 'https://blog.samuelyi101.com'
         },
-        { TITLE: '消费者研究', URL: 'https://blog.samuelyi101.com' }
+        { TITLE: '消费者研究', URL: 'https://blog.samuelyi101.com' },
         { TITLE: '品牌研究', URL: 'https://blog.samuelyi101.com' }
       ]
     },
